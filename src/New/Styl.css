@@ -1,0 +1,530 @@
+/* About.css */
+
+/* General container for logo and text */
+.logo-text-container {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Space between the logo and text */
+}
+
+/* Image styling */
+.logo-image {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  cursor: pointer;
+}
+.logo-textt{
+  color: #111;
+}
+/* Text styling */
+.logo-text {
+  font-size: 1rem; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #fffbfb;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .logo-text-container {
+    gap: 8px; /* Reduce gap on smaller screens */
+  }
+
+  .logo-image {
+    width: 40px; /* Smaller logo on smaller screens */
+  }
+
+  .logo-text {
+    font-size: 1.2rem; /* Smaller text on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text-container {
+    gap: 6px; /* Further reduce gap on very small screens */
+  }
+
+  .logo-image {
+    width: 35px; /* Even smaller logo on very small screens */
+  }
+
+  .logo-text {
+    font-size: 1rem; /* Even smaller text on very small screens */
+  }
+}
+
+.about-container {
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+.about-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about-container {
+    width: 90%;
+  }
+
+  .about-heading {
+    font-size: 28px;
+  }
+
+  .about-content {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    width: 95%;
+  }
+
+  .about-heading {
+    font-size: 24px;
+  }
+
+  .about-content {
+    font-size: 14px;
+  }
+}
+
+/* Header Container */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Logo and Text Container */
+/* .logo-text-container {
+  display: flex;
+  gap: 12px;
+} */
+
+/* Logo Image */
+/* .logo-image {
+  height: 40px;
+} */
+
+/* QRapid Text */
+.logo-text {
+  font-size: 18px;
+}
+
+/* Navigation Links Container */
+/* .nav-links-new {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} */
+
+/* Individual Navigation Item */
+.nav-item-new {
+  margin-right: 20px;
+}
+
+/* Highlighted Navigation Link */
+.highlighted-link-new {
+  font-weight: bold;
+}
+
+/* About Container */
+.about-container {
+  padding: 20px;
+}
+
+/* Headings */
+.about-container h1,
+.about-container h2 {
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* Paragraph Text */
+.about-container p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* List Styling */
+.about-container ul {
+  margin-left: 20px;
+}
+
+.about-container li {
+  margin-bottom: 8px;
+}
+
+/* FAQ Styles */
+.faq-container {
+  width: 100%;
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-title-container {
+  width: 50%;
+}
+
+.faq-title {
+  font-size: 38px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.faq-items-container {
+  width: 50%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.faq-item {
+  width: 100%;
+}
+
+.faq-question {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.faq-question-title {
+  font-size: 24px;
+  width: 80%;
+}
+
+.faq-toggle-icon {
+  height: 20px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  opacity: 0.6;
+}
+
+.faq-divider {
+  opacity: 0.4;
+}
+
+/* Responsive FAQ Styles */
+@media (max-width: 768px) {
+  .faq-title-container,
+  .faq-items-container {
+    width: 90%;
+  }
+
+  .faq-title {
+    font-size: 32px;
+  }
+
+  .faq-question-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-title-container,
+  .faq-items-container {
+    width: 95%;
+  }
+
+  .faq-title {
+    font-size: 28px;
+  }
+
+  .faq-question-title {
+    font-size: 18px;
+  }
+}
+
+/* Privacy Policy and Terms Styles */
+.privacy-policy-container,
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.privacy-policy-container h1,
+.terms-container h1 {
+  text-align: center;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.privacy-policy-container h2,
+.terms-container h2 {
+  color: #222;
+  margin-top: 20px;
+}
+
+.privacy-policy-container h3,
+.terms-container h3 {
+  color: #444;
+  margin-top: 10px;
+}
+
+.privacy-policy-container p,
+.terms-container p {
+  margin: 10px 0;
+}
+
+.privacy-policy-container .last-updated,
+.terms-container .last-updated {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.privacy-policy-container ul,
+.terms-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.privacy-policy-container li,
+.terms-container li {
+  margin: 5px 0;
+}
+
+/* Responsive Privacy Policy and Terms Styles */
+@media (max-width: 768px) {
+  .privacy-policy-container,
+  .terms-container {
+    padding: 10px;
+  }
+}
+
+/* Career Styles */
+.career-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.career-container h1 {
+  text-align: center;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.career-container h2 {
+  color: #222;
+  margin-top: 20px;
+}
+
+.career-container h3 {
+  color: #444;
+  margin-top: 10px;
+}
+
+.career-container p {
+  margin: 10px 0;
+}
+
+.career-container .intro-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.career-container .benefits-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.career-container .job-opening {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.career-container .application-instruction {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.career-container a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.career-container a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Career Styles */
+@media (max-width: 768px) {
+  .career-container {
+    padding: 10px;
+  }
+}
+
+/* Styl.css */
+
+/* Header Styles */
+.header-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.logo-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.nav-links-new {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item-new {
+  font-size: 1rem;
+}
+
+.highlighted-link-new {
+  font-weight: bold;
+}
+
+.popup-menu-new {
+  list-style: none;
+  text-align: center;
+}
+
+.popup-link-new {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Contact Styles */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-content {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item p {
+  margin: 0;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Responsive Contact Styles */
+@media (min-width: 768px) {
+  .contact-info {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .contact-item {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-description {
+    font-size: 1.25rem;
+  }
+
+  .contact-item {
+    padding: 15px;
+  }
+
+  .contact-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
